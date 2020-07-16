@@ -5,10 +5,14 @@
   "main": "dist/",
   "types": "./dist/",
   "scripts": {
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "webpack"
+  ],
+  "files": [
+    "dist"
   ],
   "repository": {
     "type": "git",
